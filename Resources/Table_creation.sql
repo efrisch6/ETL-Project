@@ -9,6 +9,15 @@ create table player_info (
 	link varchar
 );
 
+create table team_info (
+	team_id int Primary Key,
+	franchiseId varchar
+	shortName varchar
+	teamName varchar
+	abbreviation varchar
+	link varchar
+);
+
 create table skater_stats (
 	game_id	int Primary Key,
 	player_id int Primary Key,
@@ -52,3 +61,26 @@ create table games (
 	venue_time_zone_tz	varchar
 
 )
+
+
+-- Updated Schema (Output Files) --
+
+create table game_info (
+	game_id	int Primary Key,
+	season int,
+	type varchar,
+	away_team_id int,
+	home_team_id int,
+	outcome	varchar,
+);
+
+create table player_info (
+	player_id int Primary Key,
+	Name varchar,
+	primaryPosition varchar
+);
+
+create table team_info (
+	team_id int Primary Key,
+	Team varchar
+);
