@@ -87,7 +87,7 @@ player_id|firstName|lastName|nationality|birthCity|primaryPosition|birthDate|lin
 8475726|Tyler|Toffoli|CAN|Scarborough|RW|4/24/1992|/api/v1/people/8475726
 8474638|Andrew|Campbell|CAN|Caledonia|D|2/4/1988|/api/v1/people/8474638
 8470755|Brad|Richardson|CAN|Belleville|C|2/4/1985|/api/v1/people/8470755
-8475325|Jordan|Nolan|CAN|Garden River, First Nations|C|6/23/1989|/api/v1/people/8475325
+8475325|Jordan|Nolan|CAN|Garden River First Nations|C|6/23/1989|/api/v1/people/8475325
 8474563|Drew|Doughty|CAN|London|D|12/8/1989|/api/v1/people/8474563
 8474162|Jake|Muzzin|CAN|Woodstock|D|2/21/1989|/api/v1/people/8474162
 8475096|Patrick|Mullen|USA|Pittsburgh|D|5/6/1986|/api/v1/people/8475096
@@ -2176,7 +2176,7 @@ player_id|firstName|lastName|nationality|birthCity|primaryPosition|birthDate|lin
 8475097|Brad|Thiessen|CAN|Aldergrove|G|3/19/1986|/api/v1/people/8475097
 8468599|Brian|Fahey|USA|Glenview|D|3/2/1981|/api/v1/people/8468599
 8471730|Evan|Brophey|CAN|Kitchener|C|12/3/1986|/api/v1/people/8471730
-8475087|Christian|Hanson|USA|Glens Falls,|C|3/10/1986|/api/v1/people/8475087
+8475087|Christian|Hanson|USA|Glens Falls|C|3/10/1986|/api/v1/people/8475087
 8468432|Steve|Reinprecht|CAN|Edmonton|C|5/7/1976|/api/v1/people/8468432
 8475679|Jarod|Palmer|USA|Fridley|C|2/10/1986|/api/v1/people/8475679
 8469672|Aaron|Voros|CAN|Vancouver|LW|7/2/1981|/api/v1/people/8469672
