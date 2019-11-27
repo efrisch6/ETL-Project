@@ -71,7 +71,7 @@ create table game_info (
 	type varchar,
 	away_team_id int,
 	home_team_id int,
-	outcome	varchar,
+	outcome	varchar
 );
 
 create table player_info (
@@ -83,4 +83,12 @@ create table player_info (
 create table team_info (
 	team_id int Primary Key,
 	Team varchar
+);
+
+create table new_game_info (
+	game_id	int Primary Key,
+	season int,
+	Home Team varchar,
+	Away Team varchar,
+	outcome	varchar
 );
