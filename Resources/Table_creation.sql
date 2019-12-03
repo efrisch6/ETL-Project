@@ -2,10 +2,9 @@ drop table if exists games;
 create table games (
 	game_id int Primary Key,
 	season int,
-	home_team_id int,
-	home_team varchar,
+	type varchar,
 	away_team_id int,
-	away_team varchar,
+	home_team_id int,
 	outcome varchar
 );
 
@@ -30,4 +29,17 @@ create table skater_stats (
 	penalty_minutes int,
 	Primary Key (game_id,player_id)
 	
+);
+
+drop table if exists game_results;
+create table game_results (
+	game_id int,
+	position varchar,
+	home_team varchar,
+	home_team_pim int,
+	away_team varchar,
+	away_team_pim int,
+	outcome varchar,
+	avg_pim_by_position_game float,
+	Primary Key (game_id,position)
 );
